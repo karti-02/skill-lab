@@ -1,0 +1,36 @@
+.image-row {
+  margin-top: 5px;
+    display: flex;
+    position: relative;
+    align-items: center;
+   /* Adjust the padding as needed */
+  }
+  
+  .left-image img {
+    filter: brightness(40%);
+    width: 800px; /* Adjust the width of the left image */
+    height: 500px; /* Maintain aspect ratio */
+    padding-right: 5px;
+    padding-left: 30px;
+    margin-bottom: 5px;
+  }
+  
+  .right-images img {
+    filter: brightness(40%);
+    width: 670px; /* Adjust the width of the right images */
+    height: 247px; /* Maintain aspect ratio */
+    display: block; /* Ensure images are displayed as block elements */
+    margin-bottom: 5px; /* Adjust the margin between the right images */
+  }
+  
+  .texted {
+  color: white;
+  position: absolute;
+  padding-left: 70px;
+  padding-right: 800px;
+  padding-bottom: 10px;
+  bottom: 9px;
+  font-weight: bold;
+  font-size: 20px;
+  filter: brightness(80%);
+  }
